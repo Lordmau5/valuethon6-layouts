@@ -1,0 +1,68 @@
+{
+  "name": "valuethon6-layouts",
+  "version": "1.0.0",
+  "author": "Lordmau5",
+  "nodecg": {
+    "compatibleRange": "^1.0.0",
+    "bundleDependencies": {
+      "nodecg-speedcontrol": "^1.0.0"
+    },
+    "graphics": [
+      {
+        "file": "1p_16-9.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "1p_5-4.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "1p_4-3.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "1p_3-2.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "2p_16-9.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "2p_4-3.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "4p_16-9.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "special_ddr.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "special_ds.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "special_triathlon.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "setup.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}

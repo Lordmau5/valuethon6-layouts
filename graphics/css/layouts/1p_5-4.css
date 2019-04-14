@@ -1,0 +1,77 @@
+#backgroundImage {
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url('../../images/layouts/1p_5-4.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
+}
+
+/* Player information stuff. */
+.playerContainer .nameContainer {
+	position: relative;
+	left: 57px;
+	width: calc(447px - 57px);
+	height: 57px;
+	font-size: 24px;
+}
+
+.playerContainer img {
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	opacity: 0;
+}
+
+.playerContainer[player-id="1"] {
+	position: absolute;
+	left: 17px;
+	top: 595px;
+	width: 447px;
+	height: 57px;
+}
+
+/* Run information stuff. */
+#gameTitle {
+	position: absolute;
+	left: 17px;
+	top: 720px;
+	width: 447px;
+	height: 124px;
+	font-size: 24px;
+}
+
+#estimateContainer {
+	position: absolute;
+	left: 17px;
+	top: 914px;
+	width: 447px;
+	height: 57px;
+	font-size: 24px;
+}
+
+#estimateContainer #gameEstimate {
+	color: white;
+}
+
+/* Timer stuff. */
+.timerContainer[timer-id="1"] {
+	position: absolute;
+	left: 17px;
+	top: 994px;
+	width: 447px;
+	height: 57px;
+	font-size: 24px;
+}
+
+/* Donation container */
+.donationTotal {
+	position: absolute;
+	left: 291px;
+	top: 460px;
+	width: 180px;
+	height: 57px;
+}

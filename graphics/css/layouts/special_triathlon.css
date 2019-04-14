@@ -1,0 +1,180 @@
+#backgroundImage {
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url('../../images/layouts/special_triathlon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
+}
+
+/* Player information stuff. */
+.playerContainer .nameContainer {
+	position: relative;
+	left: 47px;
+	width: calc(280px - 47px);
+	height: 47px;
+	font-size: 24px;
+}
+
+.playerContainer img {
+	position: absolute;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+.playerContainer[player-id="1"] {
+	position: absolute;
+	left: 818px;
+	top: 18px;
+	width: 280px;
+	height: 47px;
+}
+
+.playerContainer[player-id="2"] {
+	position: absolute;
+	left: 822px;
+	top: 483px;
+	width: 280px;
+	height: 47px;
+}
+
+.playerContainer[player-id="3"] {
+	position: absolute;
+	left: 1338px;
+	top: 1015px;
+	width: 280px;
+	height: 47px;
+}
+
+#playerContainer1 {
+	position: absolute;
+	left: 865px;
+	top: 18px;
+	width: 233px;
+	height: 47px;
+	font-size: 24px;
+}
+
+#nameContainer1 .twitchLogo {
+	position: absolute;
+	left: 818px;
+	top: 18px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+#nameContainer1 .nameLogo {
+	position: absolute;
+	left: 818px;
+	top: 18px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+#playerContainer2 {
+	position: absolute;
+	left: 869px;
+	top: 483px;
+	width: 233px;
+	height: 47px;
+	font-size: 24px;
+}
+
+#nameContainer2 .twitchLogo {
+	position: absolute;
+	left: 822px;
+	top: 483px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+#nameContainer2 .nameLogo {
+	position: absolute;
+	left: 822px;
+	top: 483px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+#playerContainer3 {
+	position: absolute;
+	left: 1385px;
+	top: 1015px;
+	width: 233px;
+	height: 47px;
+	font-size: 24px;
+}
+
+#nameContainer3 .twitchLogo {
+	position: absolute;
+	left: 1338px;
+	top: 1015px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+#nameContainer3 .nameLogo {
+	position: absolute;
+	left: 1338px;
+	top: 1015px;
+	width: 47px;
+	height: 47px;
+	opacity: 0;
+}
+
+/* Timer stuff. */
+.timerContainer[timer-id="1"] {
+	position: absolute;
+	left: 818px;
+	top: 71px;
+	width: 161px;
+	height: 57px;
+}
+
+.timerContainer[timer-id="2"] {
+	position: absolute;
+	left: 941px;
+	top: 420px;
+	width: 161px;
+	height: 57px;
+}
+
+.timerContainer[timer-id="3"] {
+	position: absolute;
+	left: 1338px;
+	top: 952px;
+	width: 161px;
+	height: 57px;
+}
+
+.timer {
+	font-size: 36px;
+	-webkit-text-stroke: 1.5px black;
+}
+
+/* Donation container */
+.donationTotal {
+	position: absolute;
+	left: 872px;
+	top: 513px;
+	width: 180px;
+	height: 57px;
+}
+
+/* Donation container */
+.donationTotal {
+	position: absolute;
+	left: 1712px;
+	top: 1006px;
+	width: 180px;
+	height: 57px;
+}

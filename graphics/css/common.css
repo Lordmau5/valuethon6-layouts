@@ -1,0 +1,104 @@
+/* Custom Fonts */
+@font-face {
+	font-family: 'KeepCalm';
+	src: url('keepcalm.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Monospaced';
+	src: url('monospaced.ttf') format('truetype');
+}
+
+html,
+body {
+	/* Removes the page's margin/padding and makes it fill the whole browser. */
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+	/* Turns the whole page into a flex box, so we can position the text horizontally/vertically. */
+	display: flex;
+	/* Options for settings below: flex-start (top/left), center, flex-end (bottom/right). */
+	align-items: center;
+	/* Aligns vertically centre. */
+	justify-content: center;
+	/* Aligns horizontally centre. */
+
+	/* Change the default text font, size and colour. */
+	font-family: 'KeepCalm';
+	color: black;
+	font-size: 20px;
+}
+
+/* BACKGROUND IMAGE IS REMOVED, ADD IT IN OBS! */
+/* Background image; settings can also be used for the foreground image. */
+.backgroundImage {
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url('../images/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
+}
+
+/* Basic flex container class which auto centres it's contents. */
+.flexContainer {
+	display: flex;
+	align-items: center;
+	/* Aligns vertically centre. */
+	justify-content: center;
+	/* Aligns horizontally centre. */
+}
+
+/* Image classes for logos. */
+.playerContainer {
+	color: black;
+}
+
+.playerLogo {
+	padding-right: 17px;
+}
+
+/* Space between player logo on left and player name text. */
+
+#runInfoContainer,
+#donationContainer {
+	flex-direction: column;
+}
+
+#gameTitle {
+	text-align: center;
+}
+
+/* Different colours for each state the timer can be in. */
+.timer {
+	font-family: 'Monospaced';
+	font-size: 42px;
+	letter-spacing: -2px;
+	-webkit-text-stroke: 2px black;
+}
+
+.timer_running {
+	color: rgb(167, 94, 0);
+}
+
+.timer_paused,
+.timer_stopped {
+	color: gray;
+}
+
+.timer_finished {
+	color: rgb(0, 187, 25);
+}
+
+/* Donation container */
+.donationTotal {
+	margin-top: 2px;
+	font-size: 28px;
+	color: white;
+	-webkit-text-stroke: 2px black;
+}

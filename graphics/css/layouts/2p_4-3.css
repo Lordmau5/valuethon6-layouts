@@ -1,0 +1,97 @@
+#backgroundImage {
+	position: fixed;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url('../../images/layouts/2p_4-3.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1920px;
+	height: 1080px;
+}
+
+/* Player information stuff. */
+.playerContainer .nameContainer {
+	position: relative;
+	left: 96px;
+	width: calc(575px - 96px);
+	height: 96px;
+	font-size: 40px;
+}
+
+.playerContainer img {
+	position: absolute;
+	width: 96px;
+	height: 96px;
+	opacity: 0;
+}
+
+.playerContainer[player-id="1"] {
+	position: absolute;
+	left: 78px;
+	top: 83px;
+	width: 575px;
+	height: 96px;
+}
+
+.playerContainer[player-id="2"] {
+	position: absolute;
+	left: 1267px;
+	top: 81px;
+	width: 575px;
+	height: 96px;
+}
+
+/* Run information stuff. */
+#gameTitle {
+	position: absolute;
+	left: 207px;
+	top: 910px;
+	width: 475px;
+	height: 86px;
+	font-size: 24px;
+}
+
+#estimateContainer {
+	position: absolute;
+	left: 355px;
+	top: 1012px;
+	width: 327px;
+	height: 57px;
+}
+
+#estimateContainer #gameEstimate {
+	color: white;
+	font-size: 54px;
+}
+
+/* Timer stuff. */
+.timerContainer[timer-id="1"] {
+	position: absolute;
+	left: 687px;
+	top: 142px;
+	width: 252px;
+	height: 57px;
+}
+
+.timerContainer[timer-id="2"] {
+	position: absolute;
+	left: 981px;
+	top: 142px;
+	width: 252px;
+	height: 57px;
+}
+
+.timer {
+	font-size: 54px;
+	-webkit-text-stroke: 2px black;
+}
+
+/* Donation container */
+.donationTotal {
+	position: absolute;
+	left: 872px;
+	top: 63px;
+	width: 180px;
+	height: 57px;
+}
